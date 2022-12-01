@@ -7,8 +7,6 @@ public class testSelectionSort {
     public void test() {
         testPositive();
         testNegative();
-        testMixed();
-        testDuplicates();
     }
     public testSelectionSort() {
     }
@@ -36,13 +34,6 @@ public class testSelectionSort {
         /** Test data contains negative values only **/
     }
 
-    public void testMixed(){
 
-        /** Test data contains with both positive, negative and zeros **/
     }
 
-    public void testDuplicates(){
-
-        /** Test data contains duplicates **/
-    }
-}
