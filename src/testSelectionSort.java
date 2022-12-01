@@ -9,11 +9,12 @@ public class testSelectionSort {
         testPositive();
         testNegative();
     }
+
     public testSelectionSort() {
     }
 
 
-    public void testPositive(){
+    public void testPositive() {
         int[] arr = new int[5];
         arr[0] = 8;
         arr[1] = 9;
@@ -31,11 +32,11 @@ public class testSelectionSort {
         SelectionSort temp = new SelectionSort();
         temp.basicSelectionSort(arr);
 
-        assertArrayEquals( "array not sorted", Sortedarr, arr);
+        assertArrayEquals("array not sorted", Sortedarr, arr);
 
     }
 
-    public void testNegative(){
+    public void testNegative() {
 
         int[] arr = new int[5];
         arr[0] = -8;
@@ -59,5 +60,5 @@ public class testSelectionSort {
     }
 
 
-    }
+}
 
